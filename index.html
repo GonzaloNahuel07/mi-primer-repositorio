@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Starbucks">
+        <meta name="description"
+        content=" Desde el principio, Starbucks® se propuso ser un tipo de empresa diferente. Una que no únicamente girase en torno al café y su tradición, sino que también aportase una sensación de cercanía y conexión.">
+        <meta name="keywords"
+        content="café, cafetería, café con amigos, café en el trabajo, delivery, starbucks, sirena, verde, café caliente, café frío, malteadas, licuados, desayunar, merendar, trabajo y café, amigos, compañeros">
+        <title>Starbucks</title>
+        <link rel="icon" href="./images/starbucks.png" type="image/x-icon">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__container-logo">
+                <img class="container-logo--img" src="./images/starbucks.png" alt="Logo Starbucks">
+            </div>
+            <nav class="header__links">
+                <a href="#" class="header__links-link">INICIO</a>
+                <a href="#" class="header__links-link">CAFÉ</a>
+                <a href="#" class="header__links-link">SOBRE NOSOTROS</a>
+                <a href="#" class="header__links-link">DELIVERY</a>
+            </nav>
+            <div class="header__icons">
+                <i class="header__icons--bi-list bi bi-list"></i>
+                <i class="header__icons--bi-person-circle bi bi-person-circle"></i>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__container-texts">
+                <h1 class="texts__title">
+                    No solo es Café, es <span class="texts__title--green">Starbuks</span>
+                </h1>
+                <p class="texts__paragraph">
+                    Cada día, acudimos a trabajar con la esperanza de conseguir dos cosas: compartir el mejor café con nuestros amigos y contribuir a que el mundo sea un poco mejor. Así era cuando abrió la primera tienda Starbucks en 1971, y así continúa siendo hoy.
+                </p>
+            </div>
+            <img class="main__image" src="./images/starbucks.png" alt="Imagen de Starbucks">
+        </main>    
+            <section class="gallery">
+                <img src="./images/gallery-1.png" alt="Imagen 1 de la galería" class="gallery__img gallery__img--margin">
+                <img src="./images/gallery-2.png" alt="Imagen 2 de la galería" class="gallery__img">
+                <img src="./images/gallery-3.png" alt="Imagen 3 de la galería" class="gallery__img gallery__img--height">
+            </section>
+            <section class="contact">
+                <h3 class="contact__title">
+                    CONTÁCTANOS
+                </h3>
+                <form class="contact__form">
+                    <div class="contact__form-input">
+                        <label class="contact__label">
+                        Correo Electrónico
+                        </label><br>
+                        <input class="contact__input" type="email" name="contact__input__email" placeholder="Coloque su correo electrónico" required><br>
+                    </div>
+                    <div class="contact__form-input">
+                        <label class="contact__label">
+                            Comentario
+                        </label><br>
+                        <textarea class="contact__textarea" type="textarea" name="contact__input__coment" placeholder="Coloque su comentario" required></textarea><br>
+                    </div>
+                    <input class="contact__form-btn" type="submit">
+                </form>
+            </section>
+            <section class="cards">
+                <div class="cards__card">
+                    <img class="cards__card-img" src="./images/card-1.png" alt="Imagen de la tarjeta 1">
+                    <div class="cards_card-circle">
+                        <h4 class="cards__card-circle-number">
+                            5%
+                        </h4>
+                    </div>
+                    <div class="cards__card-texts">
+                        <h4 class="cards__card-texts-title">
+                            Aplicacion de <span class="cards__card-texts-title--yellow">Starburks</span>
+                        </h4>
+                        <p class="cards__card-texts-description">
+                            Ahorre tiempo con click & collect y recolecte sus estrellas.
+                            Hacer pedido nunca ha sido tan facil.
+                        </p>
+                        <a class="cards__card-texts-btn" >Pruebelo</a>
+                    </div>
+                </div>
+                <div class="cards__card">
+                    <img class="cards__card-img" src="./images/card-2.png" alt="Imagen de la tarjeta 1">
+                    <div class="cards_card-circle">
+                        <h4 class="cards__card-circle-number">
+                            10%
+                        </h4>
+                    </div>
+                    <div class="cards__card-texts">
+                        <h4 class="cards__card-texts-title">
+                            Starbucks <span class="cards__card-texts-title--yellow">Delivery</span>
+                        </h4>
+                        <p class="cards__card-texts-description">
+                            Starbuks entrega su comida y bebida favorita en la puerta de su casa.
+                        </p>
+                        <div class="cards__card-texts-btns">
+                            <a class="card__texts-btns-btn--uber" >Entrega por UberEats</a>
+                            <a class="card__texts-btns-btn--pdy" >Entrega por PedidosYa</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards__card">
+                    <img class="cards__card-img" src="./images/card-3.png" alt="Imagen de la tarjeta 3">
+                    <div class="cards__card-texts">
+                        <h4 class="cards__card-texts-title">
+                            Novedades <span class="cards__card-texts-title--yellow">Starburks</span>
+                        </h4>
+                        <p class="cards__card-texts-description">
+                            Mantengase informado de nuestras ultimas novedades y actualizaciones.
+                        </p>
+                        <a class="cards__card-texts-btn cards__card-texts-btn--width" >Más Información</a>
+                    </div>
+                </div>
+                <div class="cards__card cards__card--margin">
+                    <img class="cards__card-img" src="./images/card-4.png" alt="Imagen de la tarjeta 4">
+                    <div class="cards__card-texts">
+                        <h4 class="cards__card-texts-title">
+                            Historias de <span class="cards__card-texts-title--yellow">Starburks</span>
+                        </h4>
+                        <p class="cards__card-texts-description">
+                            Descrubra nuestra empresa y nuestra historia.
+                        </p>
+                        <a class="cards__card-texts-btn cards__card-texts-btn--width" >Más Información</a>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer__links">
+                    <a class="footer__links-login" href="#">
+                        Iniciar Sesión
+                    </a>
+                    <a class="footer__links-register" href="#">
+                        Registrate
+                    </a>
+                </div>
+                <div class="footer__social">
+                    <i class="footer__social--wp bi bi-whatsapp"></i>
+                    <i class="footer__social--fb bi bi-facebook"></i>
+                    <i class="footer__social--tw bi bi-twitter"></i>
+                </div>
+                <div class="footer__contact">
+                    <a class="footer__contact-link" href="#">
+                        Contáctanos aquí
+                    </a>
+                </div>
+            </footer>
+    </body>
+</html>
